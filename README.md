@@ -1,7 +1,7 @@
 ABC80-MOB
 =========
 
-Programs for ABC80 (AKA ABC 80). Mostly in BASIC. ABC 80 is a Swedish computer from 1978 
+Programs for ABC80. Mostly in BASIC. ABC 80 is a Swedish computer from 1978 
 that was much used in schools but also in the industry.
 
 
