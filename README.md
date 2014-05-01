@@ -1,7 +1,7 @@
 ABC80-MOB
 =========
 
-Programs for ABC80. Mostly in BASIC. ABC 80 is a Swedish computer from 1978 
+Programs for ABC80. Mostly in BASIC. [ABC 80](https://en.wikipedia.org/wiki/ABC_80) is a Swedish computer from 1978 
 that was much used in schools but also in the industry.
 
 
@@ -10,8 +10,7 @@ http://www.df.lth.se.orbin.se/~mikaelb/abc/80/
 
 About this App-Store:
 
-An ABC80 App-Store in Swedish
-=============================
+##An ABC80 App-Store in Swedish
 
 Här finns en diskettavbild muzak.dsk med det innehåll som gick att utvinna från
 en kassett från 1982 för den svenska datorn ABC80. Filerna finns även som 
@@ -92,7 +91,7 @@ Mvh,
 // Mikael O. Bonnier (Lund 2012-07-22)  
 P.S. Själva ljudet från kassetten finns i muzak96k.wav och är samplat med 
 96 kHz samplingsfrekvens och kan därför kanske ej spelas i webbläsaren utan 
-måste hämtas ner och kan spelas upp med t.ex. VLC http://www.videolan.org/vlc/.
+måste hämtas ner och kan spelas upp med t.ex. [VLC](http://www.videolan.org/vlc/).
 Där finns även en 44,1 kHz ljudfil. Jag använde programmet mfmdecode.c v. 4 av 
 H. Peter Anvin <http://www.abc80.org/mailman/listinfo/abc80/> för att extrahera
 filerna från kassettbandet. Jag använde programmet AbcExplorer av Erik Isaksson
