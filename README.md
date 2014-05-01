@@ -26,7 +26,9 @@ semikompilerande och hade även heltalsaritmetik.
 Diskettavbilden fungerar i emulatorn ABCWin2 ftp://ftp.abc.se/pub/abcwin/.
 ABCWin2 fungerar i Windows och Linux med Wine och troligen i Mac OS X med Wine.
 Det finns även en ABC80-emulator för MS-DOS men den fungerade ej i Linux med
-DOSBox. I ABCWin2 väljer man diskettavbild till Drive 1 med menyn Setup. 
+DOSBox. Det finns även en ABC80-emulator för Linux och i synnerhet Raspbian 
+för Raspberry Pi, se http://www.raspberrypi.org/forums/viewtopic.php?p=534518#p534518 . 
+I ABCWin2 väljer man diskettavbild till Drive 1 med menyn Setup. 
 Därefter måste man starta om programmet. Man kan lista filer på disketten med 
 kommandot  
 RUN LIB  
