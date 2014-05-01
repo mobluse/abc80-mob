@@ -1,4 +1,4 @@
-mobbasic
-========
+ABC80-MOB
+=========
 
-BASIC programs by MOB
+Programs for ABC80. Mostly in BASIC.
