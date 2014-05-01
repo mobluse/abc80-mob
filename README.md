@@ -7,6 +7,8 @@ Programs for ABC80 (AKA ABC 80). Mostly in BASIC.
 There is an ABC80 App-Store at that also contains programs by others:
 http://www.df.lth.se.orbin.se/~mikaelb/abc/80/
 
+About this App-Store:
+
 An ABC80 App-Store in Swedish
 =============================
 
@@ -27,21 +29,35 @@ Det finns även en ABC80-emulator för MS-DOS men den fungerade ej i Linux med
 DOSBox. I ABCWin2 väljer man diskettavbild till Drive 1 med menyn Setup. 
 Därefter måste man starta om programmet. Man kan lista filer på disketten med 
 kommandot
-RUN LIB
+
+RUN LIB  
+
 Välj D (Viss drive) och 1 för Drive 1. Man kör ett program på Drive 1 genom
 att skriva
-RUN MALARE
+
+RUN MALARE  
+
 Tydligen letar diskoperativsystemet på alla disketter. Skriv alternativt t.ex.
-RUN DR1:MALARE.BAS
+
+RUN DR1:MALARE.BAS  
+
 Det finns även Drive 0, DR0:. Tyvärr fungerar ej kassett (CAS:) i ABCWin2.
 För att avbryta ett program trycker man Ctrl+C och visar källkoden med
-LIST
-eller
-LIST -100
-eller
-LIST 100-170
-eller
-LIST 170-
+
+LIST  
+
+eller  
+
+LIST -100  
+
+eller  
+
+LIST 100-170  
+
+eller  
+
+LIST 170-  
+
 beroende på vilken del av programmet man vill se.
 
 Diskettavbilden muzak.dsk innehåller bl.a. programmet MALARE.BAS som 
@@ -52,18 +68,27 @@ Huruvida man ritar eller suddar styrs av CapsLock. Man suddar hela skärmen
 med S. En finess med programmet är att det gör olika ljudeffekter beroende på 
 vilket kommando man ger.
 
-Disketten muzak.dsk innehåller:
-EDIT.BAS     (verkar inte fungera.)
-MALARE.BAS   (ursprungligen MÅLARE.BAC.)
-MASKEN.BAS   (Denna version av klassiska Masken/Snake verkar vara förbättrad.)
-MUZAK.BAS    (Fungerar dåligt -- troligen p.g.a. dålig ljudemulering.)
-ROBOT.BAS
-SCHACK.BAS
-SERIE.BAS
-STARTREK.BAS (Man bör nog ha manualen till Startrek fr. boken Dataspel i Basic.)
-TENNIS.BAS
+Disketten muzak.dsk innehåller:  
 
-FORTH.LDA    (Finns på kassetten men togs bort på diskettavbilden ty ofullst.)
+EDIT.BAS     (verkar inte fungera.)  
+
+MALARE.BAS   (ursprungligen MÅLARE.BAC.)  
+
+MASKEN.BAS   (Denna version av klassiska Masken/Snake verkar vara förbättrad.)  
+
+MUZAK.BAS    (Fungerar dåligt -- troligen p.g.a. dålig ljudemulering.)  
+
+ROBOT.BAS  
+
+SCHACK.BAS  
+
+SERIE.BAS  
+
+STARTREK.BAS (Man bör nog ha manualen till Startrek fr. boken Dataspel i Basic.)  
+
+TENNIS.BAS  
+
+FORTH.LDA    (Finns på kassetten men togs bort på diskettavbilden ty ofullst.)  
 
 Jag hade aldrig en egen ABC80 utan använde grundskolans några få timmar per
 vecka som jag fick tillgång till från hösten 1981 (i 9:an) då jag gick en kurs
@@ -76,15 +101,16 @@ IBM PC med MS-DOS och stordatorer med VMS på universitetet och fr.o.m. sommaren
 
 Jag köpte en egen dator: Sinclair ZX81, i december 1981, och lödade ihop den
 själv under jullovet. Det finns även en ZX81 App-Store här:
-http://www.df.lth.se.orbin.se/~mikaelb/sinclair/zx81/.
+
+http://www.df.lth.se.orbin.se/~mikaelb/sinclair/zx81/.  
 
 I januari 1988 köpte jag en PC: Amstrad PC1512, och samma år 1200 bps modem och
 30 MB hårddisk. På PC:n programmerade jag mest i Pascal, C och C++ men även
 lite i BASIC.
 
 
-Mvh,
-// Mikael O. Bonnier (Lund 2012-07-22)
+Mvh,  
+// Mikael O. Bonnier (Lund 2012-07-22)  
 P.S. Själva ljudet från kassetten finns i muzak96k.wav och är samplat med 
 96 kHz samplingsfrekvens och kan därför kanske ej spelas i webbläsaren utan 
 måste hämtas ner och kan spelas upp med t.ex. VLC http://www.videolan.org/vlc/.
@@ -93,5 +119,5 @@ H. Peter Anvin <http://www.abc80.org/mailman/listinfo/abc80/> för att extrahera
 filerna från kassettbandet. Jag använde programmet AbcExplorer av Erik Isaksson
 för att utvinna BAS-filer ur diskettavbilden. Jag hade urprungligen BAC-filer
 men gjorde om dem till mer lättlästa BAS-filer genom att använda LOAD och LIST
-på diskettavbilden.
+på diskettavbilden.  
 D.S.
