@@ -23,11 +23,11 @@ http://sv.wikipedia.org/wiki/ABC_80 . En annan fördel med ABC80 var att man
 kunde skriva snabba arkadspel i ett skriptspråk ty ABC BASIC var 
 semikompilerande och hade även heltalsaritmetik.
 
-Diskettavbilden fungerar i emulatorn ABCWin2 http://www.abc80.org/pub/abcwin/ eller ftp://ftp.abc.se/pub/abcwin/.
+Diskettavbilden fungerar i emulatorn ABCWin2, se http://www.abc80.org/pub/abcwin/ eller ftp://ftp.abc.se/pub/abcwin/.
 ABCWin2 fungerar i Windows och Linux med Wine och troligen i Mac OS X med Wine.
 Det finns även en ABC80-emulator för MS-DOS men den fungerade ej i Linux med
 DOSBox. Det finns även en ABC80-emulator för Linux och i synnerhet Raspbian 
-för Raspberry Pi, se http://www.raspberrypi.org/forums/viewtopic.php?p=534518#p534518 . 
+för Raspberry Pi, se http://www.raspberrypi.org/forums/viewtopic.php?p=534518#p534518. 
 I ABCWin2 väljer man diskettavbild till Drive 1 med menyn Setup. 
 Därefter måste man starta om programmet. Man kan lista filer på disketten med 
 kommandot  
