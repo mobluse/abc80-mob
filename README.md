@@ -10,7 +10,7 @@ http://www.df.lth.se.orbin.se/~mikaelb/abc/80/
 
 About this App-Store:
 
-##An ABC80 App-Store in Swedish
+## An ABC80 App-Store in Swedish
 
 Här finns en diskettavbild muzak.dsk med det innehåll som gick att utvinna från
 en kassett från 1982 för den svenska datorn ABC80. Filerna finns även som 
