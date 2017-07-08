@@ -93,7 +93,7 @@ P.S. Själva ljudet från kassetten finns i muzak96k.wav och är samplat med
 96 kHz samplingsfrekvens och kan därför kanske ej spelas i webbläsaren utan 
 måste hämtas ner och kan spelas upp med t.ex. [VLC](http://www.videolan.org/vlc/).
 Där finns även en 44,1 kHz ljudfil. Jag använde programmet mfmdecode.c v. 4 av 
-H. Peter Anvin <http://www.abc80.org/mailman/listinfo/abc80/> för att extrahera
+H. Peter Anvin <http://git.zytor.com/abc80/mfmdecode.git/plain/mfmdecode.c> för att extrahera
 filerna från kassettbandet. Jag använde programmet AbcExplorer av Erik Isaksson
 för att utvinna BAS-filer ur diskettavbilden. Jag hade urprungligen BAC-filer
 men gjorde om dem till mer lättlästa BAS-filer genom att använda LOAD och LIST
