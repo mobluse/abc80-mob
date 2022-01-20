@@ -31,7 +31,7 @@ ABCWin2 fungerar i Windows och Linux med Wine och troligen i Mac OS X med Wine.
 Det finns även en ABC80-emulator för MS-DOS men den fungerade ej i Linux med
 DOSBox. Det finns även en ABC80-emulator, abc80sim, för Windows och Linux och i synnerhet Raspberry Pi OS 
 för Raspberry Pi, se http://www.raspberrypi.org/forums/viewtopic.php?p=534518#p534518. 
-Det finns nyare versioner av emulatorn abc80sim, men de får man kompilera själv.
+Det finns nyare versioner av emulatorn [abc80sim](https://www.abc80.org/pub/abc80sim/), men de får man kompilera själv.
 
 I ABCWin2 väljer man diskettavbild till Drive 1 med menyn Setup. 
 Därefter måste man starta om programmet. Man kan lista filer på disketten med 
