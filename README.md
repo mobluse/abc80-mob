@@ -14,8 +14,11 @@ About this App-Store:
 
 Här finns en diskettavbild muzak.dsk med det innehåll som gick att utvinna från
 en kassett från 1982 för den svenska datorn ABC80. Filerna finns även som 
-ABC BASIC-källkod (BAS-filer) med teckenkodningen ISO-646-SE-C (alternativt
-kallad ISO-646-SE2).
+ABC BASIC-källkod (BAS-filer) som ursprungligen hade teckenkodningen ISO-646-SE-C (alternativt
+kallad ISO-646-SE2) (men med ett undantag för tecknet DEL=\x7F ty det är en fylld kvadrat i ABC 80: ■).
+På GitHub är BAS-filerna omvandlade till UTF-8, men ¤ är $, ty ger bättre syntaxfärgning, ty
+är standard i BASIC. Jag bytte även ut enkelcitat ' mot dubbelcitat " i startrek.bas
+för att få bättre syntaxfärgning, ty enkelcitat är kommentarstecken i modern BASIC.
 
 En fördel med ABC 80 för svensktalande som vill lära sig om datorer är att det
 finns många böcker om den på svenska, se
@@ -26,8 +29,10 @@ semikompilerande och hade även heltalsaritmetik.
 Diskettavbilden fungerar i emulatorn ABCWin2, se http://www.abc80.org/pub/abcwin/ eller ftp://ftp.abc.se/pub/abcwin/.
 ABCWin2 fungerar i Windows och Linux med Wine och troligen i Mac OS X med Wine.
 Det finns även en ABC80-emulator för MS-DOS men den fungerade ej i Linux med
-DOSBox. Det finns även en ABC80-emulator för Linux och i synnerhet Raspbian 
+DOSBox. Det finns även en ABC80-emulator, abc80sim, för Windows och Linux och i synnerhet Raspberry Pi OS 
 för Raspberry Pi, se http://www.raspberrypi.org/forums/viewtopic.php?p=534518#p534518. 
+Det finns nyare versioner av emulatorn abc80sim, men de får man kompilera själv.
+
 I ABCWin2 väljer man diskettavbild till Drive 1 med menyn Setup. 
 Därefter måste man starta om programmet. Man kan lista filer på disketten med 
 kommandot  
@@ -74,7 +79,7 @@ vecka som jag fick tillgång till från hösten 1981 (i 9:an) då jag gick en ku
 i BASIC-programmering som Fritt valt arbete/Elevens val. Även på gymnasiet
 1982-85 hade vi ABC80 men då använde jag mest Forth på en SAAB-dator. Jag gjorde
 värnplikten 1985-86 och då hade vi tillgång till Vic 64/Commodore 64 och 
-Commodore 128 på fritiden, men spelade bara spel. Fr.o.m. våren 1987 körde jag
+Commodore 128 på fritiden, men spelade bara spel där. Fr.o.m. våren 1987 körde jag
 IBM PC med MS-DOS och stordatorer med VMS på universitetet och fr.o.m. sommaren
 1990 stordatorer med Unix (HP-UX).
 
