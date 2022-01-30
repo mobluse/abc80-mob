@@ -15,7 +15,9 @@ About this App-Store:
 Här finns en diskettavbild muzak.dsk med det innehåll som gick att utvinna från
 en kassett från 1982 för den svenska datorn ABC80. Filerna finns även som 
 ABC BASIC-källkod (BAS-filer) som ursprungligen hade teckenkodningen ISO-646-SE-C (alternativt
-kallad ISO-646-SE2) (men med ett undantag för tecknet DEL=\x7F ty det är en fylld kvadrat i ABC 80: ■).
+kallad ISO646-SE2) (men med ett undantag för tecknet DEL=\x7F ty det är en fylld rektangel i 
+ABC 80 som jag hittills översatt till ■, men den är lika stor som ett M, men täcker ej 
+underslängen på g).
 På GitHub är BAS-filerna omvandlade till UTF-8, men ¤ är $, ty ger bättre syntaxfärgning, ty
 är standard i BASIC. Jag bytte även ut enkelcitat ' mot dubbelcitat " i startrek.bas
 för att få bättre syntaxfärgning, ty enkelcitat är kommentarstecken i modern BASIC.
