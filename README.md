@@ -2,7 +2,7 @@ ABC80-MOB
 =========
 
 Programs for ABC80. Mostly in BASIC. [ABC 80](https://en.wikipedia.org/wiki/ABC_80) is a Swedish computer from 1978 
-that was much used in schools but also in the industry.
+that was much used in schools, but also in the industry.
 
 
 There is an ABC80 App-Store at that also contains programs by others:
