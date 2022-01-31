@@ -16,7 +16,7 @@ Här finns en diskettavbild muzak.dsk med det innehåll som gick att utvinna fr�
 en kassett från 1982 för den svenska datorn ABC80. Filerna finns även som 
 ABC BASIC-källkod (BAS-filer) som ursprungligen hade teckenkodningen ISO-646-SE-C (alternativt
 kallad ISO646-SE2) (men med ett undantag för tecknet DEL=\x7F ty det är en fylld rektangel i 
-ABC 80 som jag hittills översatt till ■, men den är lika stor som ett M, men täcker ej 
+ABC 80 som jag hittills översatt till ■, men den är lika hög och bred som ett M, men täcker ej 
 underslängen på g).
 På GitHub är BAS-filerna omvandlade till UTF-8, men ¤ är $, ty ger bättre syntaxfärgning, ty
 är standard i BASIC. Jag bytte även ut enkelcitat ' mot dubbelcitat " i startrek.bas
@@ -24,13 +24,13 @@ för att få bättre syntaxfärgning, ty enkelcitat är kommentarstecken i moder
 
 En fördel med ABC 80 för svensktalande som vill lära sig om datorer är att det
 finns många böcker om den på svenska, se
-http://sv.wikipedia.org/wiki/ABC_80 . En annan fördel med ABC80 var att man 
+http://sv.wikipedia.org/wiki/ABC_80. En annan fördel med ABC80 var att man 
 kunde skriva snabba arkadspel i ett skriptspråk ty ABC BASIC var 
 semikompilerande och hade även heltalsaritmetik.
 
 Diskettavbilden fungerar i emulatorn ABCWin2, se http://www.abc80.org/pub/abcwin/ eller ftp://ftp.abc.se/pub/abcwin/.
 ABCWin2 fungerar i Windows och Linux med Wine och troligen i Mac OS X med Wine.
-Det finns även en ABC80-emulator för MS-DOS men den fungerade ej i Linux med
+Det finns även en ABC80-emulator för MS-DOS, men den fungerade ej i Linux med
 DOSBox. Det finns även en ABC80-emulator, abc80sim, för Windows och Linux och i synnerhet Raspberry Pi OS 
 för Raspberry Pi, se http://www.raspberrypi.org/forums/viewtopic.php?p=534518#p534518. 
 Det finns nyare versioner av emulatorn [abc80sim](https://www.abc80.org/pub/abc80sim/), men de får man kompilera själv.
@@ -71,15 +71,15 @@ MUZAK.BAS    (Fungerar dåligt -- troligen p.g.a. dålig ljudemulering.)
 ROBOT.BAS  
 SCHACK.BAS  
 SERIE.BAS  
-STARTREK.BAS (Man bör nog ha manualen till Startrek fr. boken Dataspel i Basic.)  
+STARTREK.BAS (Man bör nog ha manualen till Startrek från boken Dataspel i Basic.)  
 TENNIS.BAS  
 
-FORTH.LDA    (Finns på kassetten men togs bort på diskettavbilden ty ofullst.)  
+FORTH.LDA    (Finns på kassetten, men togs bort på diskettavbilden ty ofullständigt.)  
 
 Jag hade aldrig en egen ABC80 utan använde grundskolans några få timmar per
 vecka som jag fick tillgång till från hösten 1981 (i 9:an) då jag gick en kurs
 i BASIC-programmering som Fritt valt arbete/Elevens val. Även på gymnasiet
-1982-85 hade vi ABC80 men då använde jag mest Forth på en SAAB-dator. Jag gjorde
+1982-85 hade vi ABC80, men då använde jag mest Forth på en SAAB-dator. Jag gjorde
 värnplikten 1985-86 och då hade vi tillgång till Vic 64/Commodore 64 och 
 Commodore 128 på fritiden, men spelade bara spel där. Fr.o.m. våren 1987 körde jag
 IBM PC med MS-DOS och stordatorer med VMS på universitetet och fr.o.m. sommaren
@@ -90,7 +90,7 @@ själv under jullovet. Det finns även en ZX81 App-Store här:
 http://www.df.lth.se.orbin.se/~mikaelb/sinclair/zx81/.
 
 I januari 1988 köpte jag en PC: Amstrad PC1512, och samma år 1200 bps modem och
-30 MB hårddisk. På PC:n programmerade jag mest i Pascal, C och C++ men även
+30 MB hårddisk. På PC:n programmerade jag mest i Pascal, C och C++, men även
 lite i BASIC.
 
 
@@ -102,7 +102,7 @@ måste hämtas ner och kan spelas upp med t.ex. [VLC](http://www.videolan.org/vl
 Där finns även en 44,1 kHz ljudfil. Jag använde programmet mfmdecode.c v. 4 av 
 H. Peter Anvin <http://git.zytor.com/abc80/mfmdecode.git/plain/mfmdecode.c> för att extrahera
 filerna från kassettbandet. Jag använde programmet AbcExplorer av Erik Isaksson
-för att utvinna BAS-filer ur diskettavbilden. Jag hade urprungligen BAC-filer
+för att utvinna BAS-filer ur diskettavbilden. Jag hade urprungligen BAC-filer,
 men gjorde om dem till mer lättlästa BAS-filer genom att använda LOAD och LIST
 på diskettavbilden.  
 D.S.
