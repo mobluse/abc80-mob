@@ -6,7 +6,7 @@ that was much used in schools, but also in the industry.
 
 
 There is an ABC80 App-Store at that also contains programs by others:
-http://www.df.lth.se.orbin.se/~mikaelb/abc/80/
+http://df.lth.se.orbin.se/~mikaelb/abc/80/
 
 About this App-Store:
 
@@ -87,7 +87,7 @@ IBM PC med MS-DOS och stordatorer med VMS på universitetet och fr.o.m. sommaren
 
 Jag köpte en egen dator: Sinclair ZX81, i december 1981, och lödade ihop den
 själv under jullovet. Det finns även en ZX81 App-Store här:  
-http://www.df.lth.se.orbin.se/~mikaelb/sinclair/zx81/.
+http://df.lth.se.orbin.se/~mikaelb/sinclair/zx81/.
 
 I januari 1988 köpte jag en PC: Amstrad PC1512, och samma år 1200 bps modem och
 30 MB hårddisk. På PC:n programmerade jag mest i Pascal, C och C++, men även
